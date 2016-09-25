@@ -1,0 +1,36 @@
+{
+  "name": "sequelize-import",
+  "version": "1.0.0",
+  "description": "Import directory with sequelize models while not caring about circular dependencies",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asn007/sequelize-import.git"
+  },
+  "keywords": [
+    "sequelize",
+    "sequelize",
+    "models",
+    "import",
+    "autoimport",
+    "sequelize",
+    "wrapper"
+  ],
+  "author": "Andrey Sinitsyn <andrey.sin98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asn007/sequelize-import/issues"
+  },
+  "homepage": "https://github.com/asn007/sequelize-import#readme",
+  "peerDependencies": {
+    "sequelize": ">= 3.x"
+  }
+}
